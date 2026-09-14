@@ -1,0 +1,16 @@
+それぞれでターミナルを開いて実行する
+
+コンパイル方法（ここではAttcker.javaを例にしている）
+1)カレントフォルダをsrc/Playerにする
+cd src/Player
+(プロンプトは「～～\Sanmoku\src\Player>」となっているはず)
+2)javacでコンパイルする
+javac -cp ../../bin -encoding UTF8 -d ../../bin Attacker.java 
+
+実行方法（ここではAchikochiとAttackerとHumanを対戦させる例としている）
+1)カレントフォルダをbinにする
+cd bin
+(プロンプトは「～～\Sanmoku\bin>」となっているはず)
+2)javaで実行する
+java Main -j Achikochi Attcker Human
+
