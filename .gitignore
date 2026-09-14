@@ -1,1 +1,5 @@
-./src/SanmokuSystem/
+# src フォルダの中の SanmokuSystem だけを無視する
+src/SanmokuSystem/
+
+# bin フォルダの中の SanmokuSystem は管理対象にする（無視しない）
+!bin/SanmokuSystem/
